@@ -3,13 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
-.main-navbar{
-    position:sticky;
+.main{
+    position:static;
 }
 .first-heading{
     color: red;
 }
-
+.Parking{
+    width: 70%;
+}
 .form-control{
     border-color: red;
     width: 100%;
@@ -29,6 +31,13 @@
    margin: auto;
    border-radius: 10px;
    
+}
+.card-parking{
+    width: 23%;
+    height: 400px;
+   margin: auto;
+   border-radius: 10px;
+   border: 1px solid black;
 }
 .btn{
     border-radius: 40px;
@@ -56,11 +65,15 @@
 }
 .finder{
     color: white;
-    border-radius: 10px;
-    padding-top: 20px;
+    padding-top: 40px;
     
 }
 
+.Spot-Finder{
+    width: 80%;
+border-radius: 10px;
+    margin-left: 150px;
+}
 .image{
     background-image: url(./img/bg\ image.PNG);
 }
